@@ -88,7 +88,7 @@ void PostOrder(Node*root){
     cout<<root->data<<" ";
 }
 int main(){
- Node*root=NULL; 
+ Node*root; 
  root=buildTree(root);
  cout<<"Printing the levelOrderTraversal output "<<endl;
  levelOrderTraversal(root);
