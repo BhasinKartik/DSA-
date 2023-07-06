@@ -34,7 +34,7 @@ class Solution
 	    return ans;
 	}
 
-// USING KAHN'S ALGO:
+// USING KAHN'S ALGO: (BFS using Queue) 
 
 vector<int> topoSort(int V, vector<int> adj[]) 
 	{
